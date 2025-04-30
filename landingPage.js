@@ -1,7 +1,3 @@
-Code
-javascript
-135 lines
-
 //board
 var blockSize = 20;
 var rows = 20;
