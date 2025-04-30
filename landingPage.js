@@ -56,7 +56,7 @@ document.getElementById("usernameForm").addEventListener("submit", function (e) 
         setCookie("snakeUser ", username);
         setCookie("snakeHighScore", 0); // reset or init
         alert(`Hello, ${username}! You're ready to play.`);
-        window.location.href = "game.html"();
+        window.location.href = "game.html";
     } else {
         alert("Invalid username! Letters and numbers only.");
     }
